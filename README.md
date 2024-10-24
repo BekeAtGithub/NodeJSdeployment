@@ -1,7 +1,7 @@
 # install Terraform and Docker on local machine
 i used Chocolatey to install on my windows PC with powershell
 choco install terraform
-choco install docker-desktop
+choco install docker-desktop 
 with VScode, I install extensions as it recommends as I progress along the way
 
 # setup AWS
