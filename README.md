@@ -2,7 +2,7 @@
 i used Chocolatey to install on my windows PC with powershell
 choco install terraform
 choco install docker-desktop 
-with VScode, I install extensions as it recommends as I progress along the way
+with VScode, I install extensions as it recommends as I progress along the way 
 
 # setup AWS
 once I create my new account, i create an IAM user, create a Group, add Administration access to it, and assign my admin user to it. I save the keys in password manager: KeePass
