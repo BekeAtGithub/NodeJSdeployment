@@ -11,7 +11,7 @@ msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 i run a few commands 
 aws configure to sync up the cli with my user in IAM
 i create a new user for terraform development:
-aws iam create-user --user-name tf-developer
+aws iam create-user --user-name tf-developer  
 aws iam add-user-to-group --user-name tf-developer --group-name "admingroup"
 aws iam create-access-key --user-name tf-developer
 aws configure --profile tf-developer
